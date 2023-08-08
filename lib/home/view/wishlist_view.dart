@@ -3,7 +3,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:provider/provider.dart';
 
 import '../../utils/colors.dart';
-import '../controller/product_controller.dart';
+import '../controller/product_provider.dart';
 
 class WishlistScreen extends StatelessWidget {
   @override

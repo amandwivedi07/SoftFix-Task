@@ -5,7 +5,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 
-import '../../home/controller/product_controller.dart';
+import '../../home/controller/product_provider.dart';
 import '../../widget/button.dart';
 import '../../widget/customtext_field.dart';
 import '../model/user.dart';

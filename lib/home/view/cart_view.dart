@@ -4,7 +4,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 
-import '../controller/product_controller.dart';
+import '../controller/product_provider.dart';
 import '../model/hive_product.dart';
 
 class CartScreen extends StatelessWidget {

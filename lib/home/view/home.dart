@@ -7,7 +7,7 @@ import 'package:flutter_application_1/widget/app_drawer.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 
-import '../controller/product_controller.dart';
+import '../controller/product_provider.dart';
 import '../model/hive_product.dart';
 import 'cart_view.dart';
 

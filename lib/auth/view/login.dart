@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/auth/view/signup.dart';
-import 'package:flutter_application_1/home/controller/product_controller.dart';
+import 'package:flutter_application_1/home/controller/product_provider.dart';
 import 'package:flutter_application_1/utils/colors.dart';
 import 'package:flutter_application_1/widget/button.dart';
 import 'package:hive/hive.dart';

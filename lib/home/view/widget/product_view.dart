@@ -3,7 +3,7 @@ import 'package:flutter_application_1/home/view/widget/product_card.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
 
-import '../../controller/product_controller.dart';
+import '../../controller/product_provider.dart';
 
 class ProductView extends StatefulWidget {
   const ProductView({super.key});

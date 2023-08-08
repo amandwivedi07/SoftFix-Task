@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/colors.dart';
 import 'package:provider/provider.dart';
 
-import '../home/controller/product_controller.dart';
+import '../home/controller/product_provider.dart';
 
 class MyFormField extends StatelessWidget {
   bool? enabled = true;

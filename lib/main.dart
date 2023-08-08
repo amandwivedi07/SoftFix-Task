@@ -6,7 +6,7 @@ import 'package:hive_flutter/adapters.dart';
 import 'package:provider/provider.dart';
 
 import 'auth/model/user.dart';
-import 'home/controller/product_controller.dart';
+import 'home/controller/product_provider.dart';
 import 'home/model/hive_product.dart';
 
 void main() async {
@@ -28,13 +28,13 @@ void main() async {
           create: (context) => ProductProvider(),
         ),
       ],
-      child: MyApp(),
+      child: const MyApp(),
     ),
   );
 }
 
 class MyApp extends StatelessWidget {
-  MyApp({super.key});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
